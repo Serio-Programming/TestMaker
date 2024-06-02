@@ -1,0 +1,126 @@
+File Transfer Protocol (FTP) uses which ports?
+FTP uses ports 20 and 21.; Correct!; File Transfer Protocol (FTP) uses port 20 and port 21.
+FTP uses ports 23 and 25.; Incorrect!; Port 23 is used by Telnet and port 25 is used by Simple Mail Transfer Protocol (SMTP).
+FTP uses ports 22 and 23.; Incorrect!; Port 22 is used by Secure Shell (SSH) and Secure File Transfer Protocol (SFTP) and port 23 is used by Telnet.
+FTP uses ports 389 and 3389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP) and port 3389 is used by Remote Desktop Protocol (RDP).
+#
+File Transfer Protocol Secure (FTPS) uses which port?
+FTPS uses ports 989 and 990.; Correct!; File Transfer Protocol Secure (FTPS) uses ports 989 and 990.
+FTPS uses ports 20 and 21.; Incorrect!; Port 20 and port 21 are used by File Transfer Protocol (FTP).
+FTPS uses ports 161 and 162.; Incorrect!; Port 161 and port 162 are used by Simple Network Management Protocol (SNMP). 
+FTPS uses ports 389 and 3389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP) and port 3389 is used by Remote Desktop Protocol (RDP).
+#
+Secure File Transfer Protocol (SFTP) uses which port? 
+SFTP uses port 22.; Correct!; Secure File Transfer Protocol (SFTP) uses port 22 for secure communication. SSH also uses port 22.
+SFTP uses port 20.; Incorrect!; Port 20 (and port 21) is used by File Transfer Protocol (FTP).
+SFTP uses port 21.; Incorrect!; Port 21 (and port 20) is used by File Transfer Protocol (FTP).
+SFTP uses port 23.; Incorrect!; Port 23 is used by Telnet.
+#
+Secure Shell (SSH) uses which port?
+SSH uses port 22.; Correct!; Secure Shell (SSH) uses port 22.
+SSH uses port 25.; Incorrect!; Port 25 is used by Simple Mail Transfer Protocol (SMTP).
+SSH uses port 23.; Incorrect!; Port 23 is used by Telnet.
+SSH uses port 20.; Incorrect!; Port 20 is used by File Transfer Protocol (FTP).
+#
+Telnet uses which port?
+Telnet uses port 23.; Correct!; Telnet users port 23.
+Telnet uses port 25.; Incorrect!; Port 25 is used by Simple Mail Transfer Protocol (SMTP).
+Telnet uses port 22.; Incorrect!; Port 22 is used by Secure Shell (SSH).
+Telnet uses port 80.; Incorrect!; Port 80 is used by Hypertext Transfer Protocol (HTTP).
+#
+Simple Mail Transfer Protocol (SMTP) uses which port?
+SMTP uses port 25.; Correct!; Simple Mail Transfer Protocol (SMTP) uses port 25.
+SMTP uses port 53.; Incorrect!; Port 53 is used by Domain Naming Service (DNS).
+SMTP uses port 143.; Incorrect!; Port 143 is used by Internet Message Access Protocol (IMAP). 
+SMTP uses port 22.; Incorrect!; Port 22 is used by Secure Shell (SSH). 
+#
+Secure Simple Mail Transfer Protocol (SMTPS) uses which port?
+SMTP uses port 587 or 465.; Correct!; Secure Simple Mail Transfer Protocol (SMTPS) uses port 587 and/or port 465.
+SMTP uses port 389 or 443.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP) and port 443 is used by Hypertext Transfer Protocol Secure (HTTPS). 
+SMTP uses port 25.; Incorrect!; Port 25 is used by Simple Mail Transfer Protocol (SMTP).
+SMTP uses port 20 or 21.; Incorrect!; Port 20 and port 21 are used by File Transfer Protocol (FTP).
+#
+Domain Naming System (DNS) uses which port?
+DNS uses port 53.; Correct!; Domain Naming System (DNS) uses port 53.
+DNS uses port 23.; Incorrect!; Port 23 is used by Telnet.
+DNS uses port 22.; Incorrect!; Port 22 is used by Secure Shell (SSH).
+DNS uses port 25.; Incorrect!; Port 25 is used by Simple Mail Transfer Protocol (SMTP).
+#
+Dynamic Host Configuration Protocol (DHCP) uses which port?
+DHCP uses ports 67 and 68.; Correct!; Dynamic Host Configuration Protocol (DHCP) uses ports 67 and 68.
+DHCP uses ports 161 and 162.; Incorrect!; Port 161 and port 162 are used by Simple Network Management Protocol (SNMP).
+DHCP uses ports 20 and 21.; Incorrect!; Port 20 and port 21 are used by File Transfer Protocol (FTP).
+DHCP uses ports 389 and 3389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP) and port 3389 is used by Remote Desktop Protocol (RDP).
+#
+Hypertext Transfer Protocol (HTTP) uses which port?
+HTTP uses port 80.; Correct!; Hypertext Transfer Protocol (HTTP) uses port 80.
+HTTP uses port 3389.; Incorrect!; Port 3389 is used by Remote Desktop Protocol (RDP).
+HTTP uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS).  
+HTTP uses port 110.; Incorrect!; Port 110 is used by Post Office Protocol version 3 (POP3).
+#
+Post Office Protocol version 3 (POP3) uses which port?
+POP3 uses port 110.; Correct!; Post Office Protocol version 3 (POP3) uses port 110.
+POP3 uses port 80.; Incorrect!; Port 80 is used by Hypertext Tranfer Protocol (HTTP).
+POP3 uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Security (HTTPS).
+POP3 uses port 143.; Incorrect!; Port 143 is used by Internet Message Access Protocol (IMAP).
+#
+Secure Post Office Protocol version 3 (POP3S) uses which port?
+POP3S uses port 995.; Correct!; Secure Post Office Protocol version 3 (POP3S) uses port 995.
+POP3S uses port 110.; Incorrect!; Port 110 is used by Post Office Protocol version 3 (POP3).
+POP3S uses port 636.; Incorrect!; Port 636 is used by Lightweight Directory Access Protocol Secure (LDAPS).
+POP3S uses port 993.; Incorrect!; Port 993 is used by Secure Internet Message Access Protocol (IMAPS).
+#
+NetBIOS/NetBT (NetBIOS over TCP/IP) uses which ports?
+NetBIOS/NetBT (NetBIOS over TCP/IP) uses ports 137, 138, and 139.; Correct!; NetBIOS/NetBT (NetBIOS over TCP/IP) uses ports 137, 138, and 139.
+NetBIOS/NetBT (NetBIOS over TCP/IP) uses ports 443 and 445.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS) and port 445 is used by Server Message Block/Common Internet File System (SMB/CIFS). 
+NetBIOS/NetBT (NetBIOS over TCP/IP) uses ports 20, 21, and 22.; Incorrect!; Ports 20 and 21 are used by File Transfer Protocol (FTP) and port 22 is used by Secure Shell (SSH).
+NetBIOS/NetBT (NetBIOS over TCP/IP) uses ports .; Incorrect!; 
+#
+Internet Message Access Protocol (IMAP) uses which port?
+IMAP uses port 143.; Correct!; Internet Message Access Protocol (IMAP) uses port 143.
+IMAP uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS). 
+IMAP uses port 389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP). 
+IMAP uses port 445.; Incorrect!; Port 445 is used by Server Message Block/Common Internet File System (SMB/CIFS). 
+#
+Internet Message Access Protocol Secure (IMAPS) uses which port?
+IMAPS uses port 993.; Correct!; Secure Internet Message Access Protocol (IMAPS) uses port 993.
+IMAPS uses port 143.; Incorrect!; Port 143 is used by Internet Message Access Protocol (IMAP).
+IMAPS uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS). 
+IMAPS uses port 445.; Incorrect!; Port 445 is used by Server Message Block/Common Internet File System (SMB/CIFS). 
+#
+Simple Network Management Protocol (SNMP) uses which ports?
+SNMP uses ports ports 161 and 162.; Correct!; Simple Network Management Protocol (SNMP) uses ports 161 and 162.
+SNMP uses ports 20 and 21.; Incorrect!; Ports 20 and 21 are used by File Transfer Protocol (FTP).
+SNMP uses ports 989 and 990.; Incorrect!; Ports 989 and 990 are used by File Transfer Protocol Secure (FTPS).
+SNMP uses ports 67 and 68.; Incorrect!; Ports 67 and 68 are used by Dynamic Host Configuration Protocol (DHCP).
+#
+Lightweight Directory Access Protocol (LDAP) uses which port?
+LDAP uses port 389.; Correct!; Lightweight Directory Access Protocol (LDAP) uses port 389.
+LDAP uses port 3389.; Incorrect!; Port 3389 is used by Remote Desktop Protocol (RDP).
+LDAP uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS).
+LDAP uses port 636.; Incorrect!; Port 636 is used by Lightweight Directory Access Protocol Secure (LDAPS).
+#
+Lightweight Directory Access Protocol Secure (LDAPS) uses which port?
+LDAPS uses port 636.; Correct!; Lightweight Directory Access Protocol Secure (LDAPS) uses port 636.
+LDAPS uses port 389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP).
+LDAPS uses port 3389.; Incorrect!; Port 3389 is used by Remote Desktop Protocol (RDP).
+LDAPS uses port 143.; Incorrect!; Port 143 is used by Internet Message Access Protocol (IMAP).
+#
+Hypertext Transfer Protocol Secure (HTTPS) uses which port?
+HTTPS uses port 443.; Correct!; Hypertext Transfer Protocol Secure (HTTPS) uses port 443.
+HTTPS uses port 80.; Incorrect!; Port 80 is used by Hypertext Transfer Protocol (HTTP).
+HTTPS uses port 445.; Incorrect!; Port 445 is used by Server Message Block/Common Internet File System (SMB/CIFS).
+HTTPS uses port 389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP).
+#
+Server Message Block/Common Internet File System (SMB/CIFS) uess which port?
+SMB/CIFS uses port 445.; Correct!; Server Message Block/Common Internet File System (SMB/CIFS) uses port 445. 
+SMB/CIFS uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS).
+SMB/CIFS uses port 389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP).
+SMB/CIFS uses port 143.; Incorrect!; Port 143 is used by Internet Message Access Protocol (IMAP).
+#
+Remote Desktop Protocol (RDP) uses which port?
+RDP uses port 3389.; Correct!; Remote Desktop Protocol (RDP) uses port 3389 to securely exchange information remotely between machines over an encrypted communication channel.
+RDP uses port 443.; Incorrect!; Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS).
+RDP uses port 636.; Incorrect!; Port 636 is used by Lightweight Directory Access Protocol Secure (LDAPS).
+RDP uses port 389.; Incorrect!; Port 389 is used by Lightweight Directory Access Protocol (LDAP).
+#
